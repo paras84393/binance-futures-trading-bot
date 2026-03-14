@@ -1,0 +1,16 @@
+2026-03-14 15:31:07,240 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.001 price=None
+2026-03-14 15:31:08,606 | ERROR | Order Failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 15:31:41,443 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-14 15:31:41,806 | ERROR | Order Failed: APIError(code=-2019): Margin is insufficient.
+2026-03-14 15:33:28,135 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-14 15:33:29,319 | ERROR | Order Failed: APIError(code=-2019): Margin is insufficient.
+2026-03-14 15:49:27,435 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.001 price=None
+2026-03-14 15:49:29,144 | ERROR | Order Failed: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-14 15:50:27,384 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-14 15:50:28,000 | ERROR | Order Failed: APIError(code=-2019): Margin is insufficient.
+2026-03-14 15:50:48,884 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-14 15:50:50,656 | INFO | Order Response: {'orderId': 12806853431, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'BHAs9fSaR4NL9JxzygQ0EA', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773483650667}
+2026-03-14 15:53:00,879 | INFO | Order Request: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-14 15:53:01,723 | INFO | Order Response: {'orderId': 12806883585, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '77ozRdplHabqMni73irUpw', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773483781739}
+2026-03-14 15:53:07,086 | INFO | Order Request: BTCUSDT SELL LIMIT qty=0.002 price=70000.0
+2026-03-14 15:53:07,464 | INFO | Order Response: {'orderId': 12806884749, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'it0dzgtWI3L19T2HOUtSLs', 'price': '70000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773483787487}
